@@ -1,0 +1,191 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="ReactiveData" rel="Chapter" href="ReactiveData.html"><title>Index of values</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of values</h1>
+<table>
+<tr><td align="left"><br>C</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALconcat">concat</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">concat a b</code> is the concatenation of <code class="code">a</code> and <code class="code">b</code>, and it gets
+      updated whenever <code class="code">a</code> and <code class="code">b</code> change
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALcons">cons</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+Add element to the beginning
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALconst">const</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Produce a constant container
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALcreate">create</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Build a container from initial contents.
+</div>
+</td></tr>
+<tr><td align="left"><br>D</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALdiff">diff</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+<code class="code">diff ?eq d1 d2</code> produces a patch describing the differences
+      between <code class="code">d1</code> and <code class="code">d2</code>.
+</div>
+</td></tr>
+<tr><td align="left"><br>E</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALempty">empty</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+Empty container
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALempty">empty</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Empty data structure
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALequal">equal</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+Lift an equality operator over atoms of type <code class="code">'a</code> to an equality
+      operator over <code class="code">'a data</code>
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALevent">event</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Event whose occurrences correspond to container updates
+</div>
+</td></tr>
+<tr><td align="left"><br>F</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALfold">fold</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+<code class="code">fold f c v</code> accumulates the updates on <code class="code">c</code> with <code class="code">f</code> starting
+      from <code class="code">v</code>.
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALfrom_event">from_event</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+<code class="code">from_event d e</code> is a container whose initial value is <code class="code">d</code>, and
+      which gets updated for every occurrence of <code class="code">e</code>
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALfrom_signal">from_signal</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Convert a React signal into a ReactiveData container.
+</div>
+</td></tr>
+<tr><td align="left"><br>I</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALinsert">insert</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">insert v i h</code> adds <code class="code">v</code> as the <code class="code">i</code>-th position in the container
+      corresponding to <code class="code">h</code>.
+</div>
+</td></tr>
+<tr><td align="left"><br>M</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALmap">map</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+<code class="code">map f c</code> applies <code class="code">f</code> on all elements of <code class="code">c</code>, producing a new
+      reactive container <code class="code">c'</code>.
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALmap_data">map_data</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+<code class="code">map f d</code> applies <code class="code">f</code> on all the elements of <code class="code">d</code>, producing a
+      new container in an applicative way
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALmap_msg">map_msg</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Transform a message
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALmap_patch">map_patch</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+Transform a patch
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.DATA.html#VALmerge">merge</a> [<a href="ReactiveData.DATA.html">ReactiveData.DATA</a>]</td>
+<td><div class="info">
+Applicative merge operation: <code class="code">merge p d</code> is a new container
+      produced by applying <code class="code">p</code> on <code class="code">d</code>.
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALmove">move</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">move i j h</code> moves the <code class="code">i</code>-th element of the container
+      corresponding to <code class="code">h</code> to the <code class="code">j</code>-th position, modifying the
+      indices of other elements
+</div>
+</td></tr>
+<tr><td align="left"><br>P</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALpatch">patch</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+<code class="code">patch h p</code> applies <code class="code">p</code> on the container corresponding to <code class="code">h</code>
+</div>
+</td></tr>
+<tr><td align="left"><br>R</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALremove">remove</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">remove i h</code> removes the <code class="code">i</code>-th position from the container
+      corresponding to <code class="code">h</code>.
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALrev">rev</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">rev a</code> is the reversal of <code class="code">a</code>; <code class="code">rev a</code> gets updated along with
+      <code class="code">a</code>
+</div>
+</td></tr>
+<tr><td align="left"><br>S</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALset">set</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+<code class="code">set h d</code> sets the contents of the container corresponding to
+      <code class="code">h</code>, disregarding previous contents
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALsignal">signal</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Signal corresponding to contents
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALsingleton">singleton</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+Produce container list containing a single, constant element
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALsingleton_s">singleton_s</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+Produce reactive list containing a single element that gets
+      updated based on a signal
+</div>
+</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALsnoc">snoc</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+Add element to the end
+</div>
+</td></tr>
+<tr><td align="left"><br>U</td></tr>
+<tr><td><a href="ReactiveData.RList.html#VALupdate">update</a> [<a href="ReactiveData.RList.html">ReactiveData.RList</a>]</td>
+<td><div class="info">
+<code class="code">update v i h</code> substitutes the <code class="code">i</code>-th element of the container
+      corresponding to <code class="code">h</code> with <code class="code">v</code>
+</div>
+</td></tr>
+<tr><td align="left"><br>V</td></tr>
+<tr><td><a href="ReactiveData.S.html#VALvalue">value</a> [<a href="ReactiveData.S.html">ReactiveData.S</a>]</td>
+<td><div class="info">
+Return current contents
+</div>
+</td></tr>
+</table>
+</body>
+</html>
